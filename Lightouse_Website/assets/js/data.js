@@ -323,10 +323,10 @@ window.COURSES = [
       { title: "Performance", duration: "4 hrs", topics: ["How indexes actually work", "EXPLAIN plans", "N+1 and other classic mistakes", "Transactions & locking"] }
     ],
     resources: [
-      { id: "sql-cheatsheet", title: "SQL Joins & Window Functions Cheat Sheet", type: "cheatsheet", size: "710 KB", downloads: 6480, updated: "2026-05-22", url: "assets/downloads/placeholder.pdf" },
-      { id: "sql-practice", title: "Practice Dataset + 80 Exercises", type: "practice", size: "5.2 MB", downloads: 4210, updated: "2026-05-22", url: "assets/downloads/source-code.zip" },
-      { id: "sql-pdf", title: "Database Design Workbook (PDF)", type: "pdf", size: "1.9 MB", downloads: 3660, updated: "2026-04-30", url: "assets/downloads/placeholder.pdf" }
-    ],
+    //   { id: "sql-cheatsheet", title: "SQL Joins & Window Functions Cheat Sheet", type: "cheatsheet", size: "710 KB", downloads: 6480, updated: "2026-05-22", url: "assets/downloads/placeholder.pdf" },
+    //   { id: "sql-practice", title: "Practice Dataset + 80 Exercises", type: "practice", size: "5.2 MB", downloads: 4210, updated: "2026-05-22", url: "assets/downloads/source-code.zip" },
+    //   { id: "sql-pdf", title: "Database Design Workbook (PDF)", type: "pdf", size: "1.9 MB", downloads: 3660, updated: "2026-04-30", url: "assets/downloads/placeholder.pdf" }
+     ],
     faqs: [
       { q: "PostgreSQL or MySQL?", a: "We teach on PostgreSQL, but 95% of the course is standard SQL that transfers directly to MySQL, SQLite and SQL Server." }
     ]
