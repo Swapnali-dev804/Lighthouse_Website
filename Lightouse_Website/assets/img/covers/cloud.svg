@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" fill="none" role="img" aria-label="Cloud Fundamentals course cover">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="640" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#170817"/><stop offset="1" stop-color="#0a1226"/>
+    </linearGradient>
+    <radialGradient id="gl" cx="0.5" cy="0.45" r="0.6">
+      <stop offset="0" stop-color="#f472b6" stop-opacity="0.25"/><stop offset="1" stop-color="#f472b6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ac" x1="200" y1="110" x2="450" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f472b6"/><stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg)"/>
+  <g stroke="#ffffff" stroke-opacity="0.05"><path d="M0 60h640M0 120h640M0 180h640M0 240h640M0 300h640M80 0v360M160 0v360M240 0v360M320 0v360M400 0v360M480 0v360M560 0v360"/></g>
+  <rect width="640" height="360" fill="url(#gl)"/>
+  <!-- cloud outline -->
+  <path d="M226 214a52 52 0 0 1 6-103 72 72 0 0 1 138-16 58 58 0 0 1 44 119H226z" stroke="url(#ac)" stroke-width="5" stroke-linejoin="round" fill="#0d1028" fill-opacity="0.6"/>
+  <!-- upload/download arrows -->
+  <g stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M282 268v-64m0 0-20 20m20-20 20 20" stroke="#f472b6"/>
+    <path d="M358 204v64m0 0 20-20m-20 20-20-20" stroke="#818cf8"/>
+  </g>
+  <!-- server nodes below -->
+  <g font-family="Consolas,monospace" font-size="14">
+    <rect x="120" y="282" width="112" height="30" rx="8" fill="#140f22" stroke="#f472b6" stroke-opacity="0.45"/>
+    <text x="176" y="302" fill="#f472b6" text-anchor="middle">region-1</text>
+    <rect x="408" y="282" width="112" height="30" rx="8" fill="#140f22" stroke="#818cf8" stroke-opacity="0.45"/>
+    <text x="464" y="302" fill="#a5b4fc" text-anchor="middle">region-2</text>
+    <rect x="452" y="64" width="140" height="30" rx="8" fill="#140f22" stroke="#f472b6" stroke-opacity="0.4"/>
+    <text x="522" y="84" fill="#f9a8d4" text-anchor="middle">99.99% uptime</text>
+  </g>
+  <circle cx="98" cy="120" r="6" fill="#f472b6"/><circle cx="560" cy="200" r="7" fill="#818cf8"/>
+  <text x="40" y="322" font-family="'Segoe UI',sans-serif" font-size="26" font-weight="700" fill="#e7ebf5">Cloud Fundamentals (AWS)</text>
+  <rect x="40" y="334" width="120" height="4" rx="2" fill="url(#ac)"/>
+</svg>

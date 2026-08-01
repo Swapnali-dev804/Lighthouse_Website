@@ -1,0 +1,2 @@
+﻿Put the downloadable files for this course in this folder (PDFs, ZIPs, cheat sheets...).
+Then add an entry for each file in assets/js/data.js - see the HOW TO ADD A RESOURCE instructions there.

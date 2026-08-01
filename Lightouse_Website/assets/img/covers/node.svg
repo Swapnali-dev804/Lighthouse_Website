@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" fill="none" role="img" aria-label="Node.js Backend Mastery course cover">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="640" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#06170f"/><stop offset="1" stop-color="#0a1424"/>
+    </linearGradient>
+    <radialGradient id="gl" cx="0.5" cy="0.45" r="0.6">
+      <stop offset="0" stop-color="#4ade80" stop-opacity="0.25"/><stop offset="1" stop-color="#4ade80" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ac" x1="240" y1="80" x2="400" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4ade80"/><stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg)"/>
+  <g stroke="#ffffff" stroke-opacity="0.05"><path d="M0 60h640M0 120h640M0 180h640M0 240h640M0 300h640M80 0v360M160 0v360M240 0v360M320 0v360M400 0v360M480 0v360M560 0v360"/></g>
+  <rect width="640" height="360" fill="url(#gl)"/>
+  <!-- hexagon -->
+  <path d="M320 66 428 128v124L320 314 212 252V128L320 66z" stroke="url(#ac)" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M320 106 393 148v84L320 274l-73-42v-84l73-42z" stroke="#4ade80" stroke-opacity="0.35" stroke-width="2"/>
+  <!-- server stack inside -->
+  <g>
+    <rect x="278" y="140" width="84" height="24" rx="6" fill="#0a0e1d" stroke="#4ade80" stroke-width="2.5"/>
+    <rect x="278" y="172" width="84" height="24" rx="6" fill="#0a0e1d" stroke="#4ade80" stroke-width="2.5"/>
+    <rect x="278" y="204" width="84" height="24" rx="6" fill="#0a0e1d" stroke="#4ade80" stroke-width="2.5"/>
+    <circle cx="290" cy="152" r="3.5" fill="#4ade80"/><circle cx="290" cy="184" r="3.5" fill="#22d3ee"/><circle cx="290" cy="216" r="3.5" fill="#fbbf24"/>
+    <path d="M302 152h44M302 184h32M302 216h40" stroke="#ffffff" stroke-opacity="0.3" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <!-- connection dots -->
+  <circle cx="428" cy="128" r="7" fill="#4ade80"/>
+  <circle cx="212" cy="252" r="7" fill="#22d3ee"/>
+  <g font-family="Consolas,monospace" font-size="14">
+    <rect x="472" y="70" width="122" height="30" rx="8" fill="#0d1a14" stroke="#4ade80" stroke-opacity="0.4"/>
+    <text x="533" y="90" fill="#4ade80" text-anchor="middle">:8080 ✓</text>
+  </g>
+  <text x="40" y="322" font-family="'Segoe UI',sans-serif" font-size="26" font-weight="700" fill="#e7ebf5">Node.js Backend Mastery</text>
+  <rect x="40" y="334" width="120" height="4" rx="2" fill="url(#ac)"/>
+</svg>

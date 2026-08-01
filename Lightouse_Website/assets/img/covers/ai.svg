@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" fill="none" role="img" aria-label="Future Ready with AI course cover">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="640" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#071224"/><stop offset="1" stop-color="#0b1030"/>
+    </linearGradient>
+    <radialGradient id="gl" cx="0.5" cy="0.45" r="0.6">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.30"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ac" x1="180" y1="90" x2="460" y2="270" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg)"/>
+  <g stroke="#ffffff" stroke-opacity="0.05"><path d="M0 60h640M0 120h640M0 180h640M0 240h640M0 300h640M80 0v360M160 0v360M240 0v360M320 0v360M400 0v360M480 0v360M560 0v360"/></g>
+  <rect width="640" height="360" fill="url(#gl)"/>
+  <!-- neural net -->
+  <g stroke="url(#ac)" stroke-width="1.8" stroke-opacity="0.7">
+    <path d="M200 110 320 90M200 110 320 180M200 180 320 90M200 180 320 180M200 180 320 270M200 250 320 180M200 250 320 270"/>
+    <path d="M320 90 440 140M320 180 440 140M320 180 440 220M320 270 440 220"/>
+    <path d="M440 140 520 180M440 220 520 180"/>
+  </g>
+  <g>
+    <circle cx="200" cy="110" r="13" fill="#0a0e1d" stroke="#22d3ee" stroke-width="3"/>
+    <circle cx="200" cy="180" r="13" fill="#0a0e1d" stroke="#22d3ee" stroke-width="3"/>
+    <circle cx="200" cy="250" r="13" fill="#0a0e1d" stroke="#22d3ee" stroke-width="3"/>
+    <circle cx="320" cy="90" r="13" fill="#0a0e1d" stroke="#67e8f9" stroke-width="3"/>
+    <circle cx="320" cy="180" r="15" fill="#22d3ee"/>
+    <circle cx="320" cy="270" r="13" fill="#0a0e1d" stroke="#67e8f9" stroke-width="3"/>
+    <circle cx="440" cy="140" r="13" fill="#0a0e1d" stroke="#818cf8" stroke-width="3"/>
+    <circle cx="440" cy="220" r="13" fill="#0a0e1d" stroke="#818cf8" stroke-width="3"/>
+    <circle cx="520" cy="180" r="16" fill="#0a0e1d" stroke="#e879f9" stroke-width="3.5"/>
+    <circle cx="520" cy="180" r="6" fill="#e879f9"/>
+  </g>
+  <g font-family="Consolas,monospace" font-size="14">
+    <rect x="96" y="52" width="118" height="30" rx="8" fill="#0d1428" stroke="#22d3ee" stroke-opacity="0.4"/>
+    <text x="155" y="72" fill="#22d3ee" text-anchor="middle">gen-ai</text>
+  </g>
+  <text x="40" y="322" font-family="'Segoe UI',sans-serif" font-size="26" font-weight="700" fill="#e7ebf5">Future Ready with AI</text>
+  <rect x="40" y="334" width="120" height="4" rx="2" fill="url(#ac)"/>
+</svg>

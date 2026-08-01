@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resources &amp; Downloads — Lighthouse Learning Hub</title>
+  <meta name="description" content="Free downloads grouped by course: PDFs, cheat sheets, source code, prompt packs, assignments and practice files.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="resources">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div id="site-header"></div>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <span class="kicker">Free downloads</span>
+        <h1>Resources <span class="grad-text">library</span></h1>
+        <p>Every PDF, cheat sheet, prompt pack, source-code bundle and assignment from every course —
+           grouped by course and stamped with its last update.</p>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container">
+        <div class="toolbar">
+          <div class="toolbar__search">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="search" id="res-search" placeholder="Search resources…" aria-label="Search resources">
+          </div>
+        </div>
+        <div class="toolbar">
+          <div class="chip-row" id="type-chips" role="group" aria-label="Filter by resource type">
+            <button class="chip active" data-type="all">All types</button>
+            <button class="chip" data-type="pdf">PDFs</button>
+            <button class="chip" data-type="cheatsheet">Cheat Sheets</button>
+            <button class="chip" data-type="code">Source Code</button>
+            <button class="chip" data-type="prompts">Prompt Packs</button>
+            <button class="chip" data-type="assignment">Assignments</button>
+            <button class="chip" data-type="practice">Practice Files</button>
+          </div>
+        </div>
+
+        <div id="resources-root"></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

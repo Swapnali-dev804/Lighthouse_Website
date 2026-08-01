@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>All Courses — Lighthouse Learning Hub</title>
+  <meta name="description" content="Browse all free courses: Deep Dive in Flutter, Future ready with AI, and SQL &amp; Database Design. Filter by level, category and status.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="courses">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div id="site-header"></div>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <span class="kicker">Course catalog</span>
+        <h1>All <span class="grad-text">courses</span></h1>
+        <p>Every course is free, project-based and comes with downloadable resources.
+           New tracks land regularly — check the <a href="roadmap.html" style="color:var(--cyan)">roadmap</a> for what's next.</p>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container">
+        <div class="toolbar">
+          <div class="toolbar__search">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="search" id="filter-search" placeholder="Search courses, topics, tags…" aria-label="Search courses">
+          </div>
+          <select id="filter-category" aria-label="Filter by category"></select>
+          <select id="filter-level" aria-label="Filter by level"></select>
+        </div>
+
+        <div class="toolbar" style="justify-content:space-between">
+          <div class="chip-row" id="status-chips" role="group" aria-label="Filter by status">
+            <button class="chip active" data-status="all">All</button>
+            <button class="chip" data-status="live">Live</button>
+            <button class="chip" data-status="in-progress">In Progress</button>
+            <button class="chip" data-status="coming-soon">Coming Soon</button>
+          </div>
+          <span id="courses-count" style="color:var(--text-faint);font-size:0.88rem"></span>
+        </div>
+
+        <div class="card-grid" id="courses-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

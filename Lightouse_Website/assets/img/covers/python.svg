@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" fill="none" role="img" aria-label="Python for AI Builders course cover">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="640" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#131203"/><stop offset="1" stop-color="#0a1424"/>
+    </linearGradient>
+    <radialGradient id="gl" cx="0.5" cy="0.45" r="0.6">
+      <stop offset="0" stop-color="#fbbf24" stop-opacity="0.22"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ac" x1="220" y1="90" x2="420" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fbbf24"/><stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg)"/>
+  <g stroke="#ffffff" stroke-opacity="0.05"><path d="M0 60h640M0 120h640M0 180h640M0 240h640M0 300h640M80 0v360M160 0v360M240 0v360M320 0v360M400 0v360M480 0v360M560 0v360"/></g>
+  <rect width="640" height="360" fill="url(#gl)"/>
+  <!-- interlocking snake shapes (abstract python mark) -->
+  <g stroke-linecap="round">
+    <path d="M250 96h84c24 0 44 20 44 44v22c0 24-20 44-44 44h-84c-24 0-44 20-44 44v22c0 24 20 44 44 44h56" stroke="#22d3ee" stroke-width="26" fill="none" opacity="0.92"/>
+    <path d="M390 264h-84c-24 0-44-20-44-44v-22" stroke="#fbbf24" stroke-width="26" fill="none" opacity="0.92"/>
+    <path d="M306 96h28" stroke="#fbbf24" stroke-width="26" fill="none" opacity="0.92"/>
+  </g>
+  <circle cx="278" cy="128" r="9" fill="#05070f"/>
+  <circle cx="362" cy="232" r="9" fill="#05070f"/>
+  <g font-family="Consolas,monospace" font-size="14">
+    <rect x="420" y="70" width="176" height="30" rx="8" fill="#12141f" stroke="#fbbf24" stroke-opacity="0.45"/>
+    <text x="508" y="90" fill="#fbbf24" text-anchor="middle">import future</text>
+    <rect x="56" y="252" width="130" height="30" rx="8" fill="#12141f" stroke="#22d3ee" stroke-opacity="0.45"/>
+    <text x="121" y="272" fill="#22d3ee" text-anchor="middle">&gt;&gt;&gt; run()</text>
+  </g>
+  <text x="40" y="322" font-family="'Segoe UI',sans-serif" font-size="26" font-weight="700" fill="#e7ebf5">Python for AI Builders</text>
+  <rect x="40" y="334" width="120" height="4" rx="2" fill="url(#ac)"/>
+</svg>

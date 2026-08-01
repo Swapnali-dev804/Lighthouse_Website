@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" fill="none" role="img" aria-label="Futuristic illustration of a code editor lit by a lighthouse beacon">
+  <defs>
+    <linearGradient id="hg1" x1="0" y1="0" x2="640" y2="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fcd489"/><stop offset="0.5" stop-color="#f0a94b"/><stop offset="1" stop-color="#d97a2e"/>
+    </linearGradient>
+    <linearGradient id="hg2" x1="120" y1="120" x2="520" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d1428"/><stop offset="1" stop-color="#101b3a"/>
+    </linearGradient>
+    <radialGradient id="hglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f2b35c" stop-opacity="0.32"/><stop offset="1" stop-color="#f2b35c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ambient glow -->
+  <circle cx="320" cy="260" r="240" fill="url(#hglow)"/>
+
+  <!-- orbit rings -->
+  <ellipse cx="320" cy="260" rx="286" ry="120" stroke="#f2b35c" stroke-opacity="0.28" stroke-dasharray="3 7" transform="rotate(-18 320 260)"/>
+  <ellipse cx="320" cy="260" rx="250" ry="96" stroke="#a78bfa" stroke-opacity="0.2" stroke-dasharray="3 7" transform="rotate(14 320 260)"/>
+  <circle cx="76" cy="180" r="6" fill="#f2b35c"/>
+  <circle cx="560" cy="330" r="7" fill="#d97a2e"/>
+  <circle cx="510" cy="112" r="5" fill="#a78bfa"/>
+
+  <!-- lighthouse beacon top-left -->
+  <g stroke="#f6c169" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M84 96v4"/>
+    <path d="M78 110l6-8 6 8z"/>
+    <rect x="78" y="110" width="12" height="8" rx="1.5"/>
+    <path d="M70 133l6-15h16l6 15"/>
+    <path d="M62 137h44" opacity="0.7"/>
+    <path d="M66 114h-9M102 114h9M70 102l-6-6M98 102l6-6" opacity="0.85"/>
+  </g>
+
+  <!-- code window -->
+  <g filter="drop-shadow(0 24px 40px rgba(0,0,0,0.55))">
+    <rect x="120" y="120" width="400" height="300" rx="18" fill="url(#hg2)" stroke="#ffffff" stroke-opacity="0.12"/>
+    <rect x="120" y="120" width="400" height="44" rx="18" fill="#ffffff" fill-opacity="0.04"/>
+    <line x1="120" y1="164" x2="520" y2="164" stroke="#ffffff" stroke-opacity="0.08"/>
+    <circle cx="148" cy="142" r="6" fill="#fb7185"/>
+    <circle cx="170" cy="142" r="6" fill="#fbbf24"/>
+    <circle cx="192" cy="142" r="6" fill="#4ade80"/>
+    <rect x="366" y="132" width="134" height="20" rx="10" fill="#f2b35c" fill-opacity="0.12" stroke="#f2b35c" stroke-opacity="0.4"/>
+    <text x="433" y="146" font-family="Consolas,monospace" font-size="11" fill="#f6c169" text-anchor="middle">lighthouse.hub</text>
+
+    <!-- code lines -->
+    <rect x="150" y="188" width="52" height="10" rx="5" fill="#f2a950" opacity="0.9"/>
+    <rect x="210" y="188" width="120" height="10" rx="5" fill="#ffffff" opacity="0.25"/>
+    <rect x="150" y="214" width="34" height="10" rx="5" fill="#f6c169" opacity="0.9"/>
+    <rect x="192" y="214" width="90" height="10" rx="5" fill="#ffffff" opacity="0.22"/>
+    <rect x="290" y="214" width="64" height="10" rx="5" fill="#a78bfa" opacity="0.8"/>
+    <rect x="172" y="240" width="70" height="10" rx="5" fill="#4ade80" opacity="0.8"/>
+    <rect x="250" y="240" width="120" height="10" rx="5" fill="#ffffff" opacity="0.2"/>
+    <rect x="172" y="266" width="140" height="10" rx="5" fill="#ffffff" opacity="0.25"/>
+    <rect x="320" y="266" width="52" height="10" rx="5" fill="#fbbf24" opacity="0.85"/>
+    <rect x="150" y="292" width="46" height="10" rx="5" fill="#f6c169" opacity="0.9"/>
+    <rect x="204" y="292" width="106" height="10" rx="5" fill="#ffffff" opacity="0.22"/>
+
+    <!-- progress bar -->
+    <rect x="150" y="330" width="340" height="12" rx="6" fill="#ffffff" fill-opacity="0.07"/>
+    <rect x="150" y="330" width="238" height="12" rx="6" fill="url(#hg1)"/>
+    <text x="150" y="368" font-family="Consolas,monospace" font-size="13" fill="#9aa3b8">deploying knowledge…</text>
+    <text x="490" y="368" font-family="Consolas,monospace" font-size="13" fill="#f6c169" text-anchor="end">70%</text>
+  </g>
+
+  <!-- constellation nodes around window -->
+  <g stroke="url(#hg1)" stroke-width="1.6" stroke-opacity="0.75">
+    <path d="M84 300 120 280M84 300 122 330M84 300 60 260"/>
+    <path d="M556 190 520 210M556 190 588 158M556 190 590 226"/>
+  </g>
+  <circle cx="84" cy="300" r="10" fill="#0a0e1d" stroke="#f2b35c" stroke-width="2.5"/>
+  <circle cx="60" cy="260" r="6" fill="#f2b35c"/>
+  <circle cx="122" cy="330" r="6" fill="#a78bfa"/>
+  <circle cx="556" cy="190" r="10" fill="#0a0e1d" stroke="#d97a2e" stroke-width="2.5"/>
+  <circle cx="588" cy="158" r="6" fill="#d97a2e"/>
+  <circle cx="590" cy="226" r="6" fill="#f6c169"/>
+
+  <!-- floating chips -->
+  <g font-family="Consolas,monospace" font-size="13">
+    <rect x="420" y="52" width="150" height="36" rx="10" fill="#0d1428" stroke="#f2b35c" stroke-opacity="0.5"/>
+    <text x="495" y="75" fill="#f6c169" text-anchor="middle">&lt;/&gt; learn.build()</text>
+    <rect x="420" y="430" width="164" height="36" rx="10" fill="#0d1428" stroke="#d97a2e" stroke-opacity="0.5"/>
+    <text x="502" y="453" fill="#f0a94b" text-anchor="middle">guide.ship("free")</text>
+    <rect x="80" y="420" width="120" height="36" rx="10" fill="#0d1428" stroke="#4ade80" stroke-opacity="0.45"/>
+    <text x="140" y="443" fill="#4ade80" text-anchor="middle">100% free</text>
+  </g>
+</svg>

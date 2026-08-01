@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lighthouse Learning Hub — Free AI, Flutter &amp; SQL Courses</title>
+  <meta name="description" content="A free developer learning hub. Learn Generative AI, Flutter app development and SQL with YouTube courses, downloadable resources and public roadmaps.">
+  <meta name="keywords" content="free coding courses, generative ai course, flutter course, sql course, learn programming, lighthouse learning hub">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Lighthouse Learning Hub — Free AI, Flutter &amp; SQL Courses">
+  <meta property="og:description" content="Free courses on AI, Flutter and SQL — watch on YouTube, and soon on our app. Resources and roadmaps included.">
+  <meta property="og:image" content="assets/img/covers/ai.svg">
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div id="site-header"></div>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div>
+          <span class="badge badge--free">🎓 100% free · no sign-up · no paywall</span>
+          <h1>Learn to build the <span class="grad-text">future of software</span></h1>
+          <p class="hero__lede">
+            Master Generative AI, Flutter app development and SQL — with structured YouTube
+            courses, downloadable resources, clear roadmaps and a community that actually helps.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="courses.html">Explore Courses</a>
+            <a class="btn btn--ghost" href="roadmap.html">View Roadmap</a>
+          </div>
+          <div class="hero__stats" id="hero-stats"></div>
+        </div>
+        <div class="hero__art">
+          <img src="assets/img/hero.svg" alt="Illustration of a futuristic code editor connected to a neural network" width="640" height="520" fetchpriority="high">
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURED COURSES ============ -->
+    <section class="section" id="featured">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">Featured courses</span>
+          <h2>Start with our most-loved tracks</h2>
+          <p>Complete, project-based courses — videos on YouTube, everything else right here.</p>
+        </div>
+        <div class="card-grid" id="featured-courses"></div>
+        <div style="text-align:center;margin-top:40px" class="reveal">
+          <a class="btn btn--ghost" href="courses.html">View all courses →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RECENT RESOURCES ============ -->
+    <section class="section section--tight">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="kicker">Free downloads</span>
+          <h2>Latest free resources</h2>
+          <p>Cheat sheets, source code, prompt packs and notes — download and practice offline.</p>
+        </div>
+        <div class="res-group__list" id="recent-resources"></div>
+        <div style="margin-top:28px" class="reveal">
+          <a class="btn btn--ghost btn--sm" href="resources.html">Browse all resources →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WHY LEARN WITH US ============ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <span class="kicker">Why learn with us</span>
+          <h2>Built on trust, not upsells</h2>
+          <p>Everything about this academy is designed to keep learning free, current and honest.</p>
+        </div>
+        <div class="trust-grid reveal-stagger" id="trust-grid"></div>
+      </div>
+    </section>
+
+    <!-- ============ NEWSLETTER ============ -->
+    <section class="section section--tight">
+      <div class="container">
+        <div class="glass newsletter reveal">
+          <h2>Never miss a <span class="grad-text">new course</span></h2>
+          <p>One short email when new courses, modules or resources drop. No spam — ever.</p>
+          <form class="newsletter__form" novalidate>
+            <input type="email" name="email" placeholder="you@example.com" aria-label="Email address" required>
+            <button class="btn btn--primary" type="submit">Subscribe</button>
+          </form>
+          <div class="newsletter__msg" role="status" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
